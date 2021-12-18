@@ -1,0 +1,34 @@
+{
+    "name": "sauron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "run": "node index.js",
+        "update": "node deploy-commands.js",
+        "run-update": "node deploy-commands.js && node index.js",
+        "reset": "node reset-commands.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asen23/Sauron.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/asen23/Sauron/issues"
+    },
+    "homepage": "https://github.com/asen23/Sauron#readme",
+    "dependencies": {
+        "@discordjs/builders": "^0.9.0",
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "discord-api-types": "^0.25.2",
+        "discord.js": "^13.3.1",
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.5.0",
+        "eslint-config-prettier": "^8.3.0"
+    }
+}
