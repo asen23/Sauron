@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
+const server = require('./server');
 
 require('dotenv').config();
 
@@ -33,4 +34,5 @@ for (const file of eventFiles) {
     }
 }
 
+server();
 client.login(token);
